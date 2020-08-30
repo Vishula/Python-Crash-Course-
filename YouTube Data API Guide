@@ -1,0 +1,5 @@
+Prerequisites [P2.7 or P3.5+, "pip" package management tool]
+The Google APIs Client Library for Python 
+pip install --upgrade google-api-python-client
+for User Authorization =  [google-auth-oauthlib Library]  and [google-auth-httplib2 Library]
+pip install --upgrade google-auth-oauthlib google-auth-httplib2
