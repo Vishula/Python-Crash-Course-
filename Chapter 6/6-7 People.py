@@ -26,4 +26,4 @@ for person in people:
     lname = person['lname']
     city = person['city']
 
-print(f"His name is {name} {lname} and he's from {city}")
+    print(f"His name is {name} {lname} and he's from {city}")
