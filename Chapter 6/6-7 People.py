@@ -21,5 +21,9 @@ person = {"fname":"ken",
 # append the person to list
 people.append(person)
 
+for person in people:
+    name = person['fname']
+    lname = person['lname']
+    city = person['city']
 
-
+print(f"His name is {name} {lname} and he's from {city}")
