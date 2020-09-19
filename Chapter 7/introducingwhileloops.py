@@ -20,3 +20,17 @@ message = ''
 while message != 'quit':
     message = input(prompt) # asks user the question
     print(message) # print user input
+
+# Above program works but it prints quit as well when you want to exit out of the
+# program
+
+# Simple FIX - will do a different program so i can use dem skills g
+
+# empty string to store user values
+story = ''
+
+while story != 'quit':
+    story = input("Enter your story: ")
+    if story != 'quit':
+        print(story)
+
