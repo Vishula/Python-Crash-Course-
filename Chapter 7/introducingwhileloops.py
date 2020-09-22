@@ -34,3 +34,18 @@ while story != 'quit':
     if story != 'quit':
         print(story)
 
+
+# Lets go again: [This is 2 days late-Memory check; it still foggy]
+
+
+sms = ''
+
+while sms != 'quit':
+    sms = input("Enter something, i will repeat it: (Quit to exit): ")
+    print(sms)
+
+print("Only once Printed Gg")
+
+
+
+
