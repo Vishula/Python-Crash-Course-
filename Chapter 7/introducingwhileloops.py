@@ -38,13 +38,20 @@ while story != 'quit':
 # Lets go again: [This is 2 days late-Memory check; it still foggy]
 
 
-sms = ''
+sms = '' # python has something to check the first time it reaches while line
+         # The first time the program runs and the python reaches while statement, it needs to
+         # compare the value of sms (quit) but no user input has been received at that moment.
+         # so it wont be able to run.
 
 while sms != 'quit':
     sms = input("Enter something, i will repeat it: (Quit to exit): ")
     print(sms)
 
 print("Only once Printed Gg")
+
+
+
+
 
 
 
