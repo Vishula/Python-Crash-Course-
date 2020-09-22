@@ -50,7 +50,18 @@ while sms != 'quit':
 print("Only once Printed Gg")
 
 
+# How to NOT PRINT QUIT as we exit the program.
 
+
+email = ''
+# if loop will only print the var email if it doesn't = quit. so
+# when it = quit, it will print Exit.
+while email != 'quit':
+    email = input("Enter quit or a story, i will repeat: ")
+    if email != 'quit':
+        print(email)
+    else:
+        print("Exit")
 
 
 
